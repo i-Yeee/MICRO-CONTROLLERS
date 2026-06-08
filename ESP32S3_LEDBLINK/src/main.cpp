@@ -11,6 +11,7 @@ void loop() {
   LED_RGB.setPixelColor(0, uint32_t(LED_RGB.Color(255, 0, 0)));
   LED_RGB.show();
   delay(2000);
+  
   LED_RGB.setPixelColor(0, uint32_t(LED_RGB.Color(0, 255, 0)));
   LED_RGB.show();
   delay(2000);
